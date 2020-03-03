@@ -10,4 +10,7 @@ jobs:
         python-version: '3.8'
     - name: Python version
       run: |
+        echo python
         python -V
+        echo pip
+        pip -V
